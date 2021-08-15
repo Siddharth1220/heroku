@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+
+	*
+	{
+		padding: 0;
+		margin: 0;
+		background: #3b038f;
+		color: #fff;
+	}
+	.main
+	{
+		padding-top: 10px;
+		margin-top: 10px;
+		background: #000;
+
+		border-color: #00ff48;
+		border-style: solid;
+		border-width: 5px;
+		border-bottom: 15px solid #003b11;
+	}
+
+
+	.imgsize
+	{
+		max-width: 100px;
+		max-height: 100px;
+	}
+
+	
+	</style>
+		
+
+
+	<title>Cart</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-transparent fixed-top">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cart</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">LOGOUT</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+	
+
+<div class="pt-5">
+
+	
+
+	<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='LF.jpg')}}" class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Ladyfinger</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+	<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='bittergourd.jpg')}}" class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Bitter Gourd</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+
+<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='lauki.jpg')}}" class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Bottlegourd</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+
+<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='cabbage.jpg')}}" class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Cabbage</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+
+
+	<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='carrots.jpg')}}" class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Carrot</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+
+<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='cl.jpg')}} " class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Coriander leaves</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+<div class="main p-1 pt-3 bg-transparent">
+
+			<div class="row pt-3 m-2">
+
+				<div class="col-4 p-0">
+					<img src="{{url_for('static', filename='cucumbers.jpg')}} " class="rounded imgsize" alt="Cinque Terre">
+				</div>
+				<div class="col-8 p-0">
+					<div class="text-right">
+					<h2 class="text-center">Cucumber</h2>
+					<button type="button" class="btn btn-primary pt-1">ORDER</button>
+					</div>
+				</div>
+		  				
+		  	</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
